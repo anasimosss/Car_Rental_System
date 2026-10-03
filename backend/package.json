@@ -1,0 +1,56 @@
+{
+  "name": "car-rental-sys-backend",
+  "version": "1.0.0",
+  "description": "Backend for Car Rental System (car-rental-sys)",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "lint": "eslint .",
+    "test": "jest --runInBand",
+    "seed": "node src/seed/seedAdmin.js"
+  },
+  "keywords": [
+    "car",
+    "rental",
+    "backend",
+    "express",
+    "node"
+  ],
+  "author": "henokkebe19-svg",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^8.1.0",
+    "autoprefixer": "^10.4.16",
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^1.37.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "express-rate-limit": "^6.8.0",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^7.0.10",
+    "postcss": "^8.4.32",
+    "sequelize": "^6.37.7",
+    "stripe": "^14.0.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1",
+    "tedious": "^18.6.1",
+    "tailwindcss": "^3.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.1",
+    "supertest": "^6.3.3"
+  }
+}
